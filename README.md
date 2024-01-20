@@ -1,7 +1,6 @@
 - 👋 Hi, I’m @EphraimSA
 - 👀 I’m interested in ...reading,coding,religion,history
 - 🌱 I’m currently learning ...c# and java
-- 📫 How to reach me ...
 - 😄 Pronouns: ...ephy
 - ⚡ Fun fact: ...i love god and israel and i would do anything for them
 
