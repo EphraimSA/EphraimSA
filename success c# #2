@@ -1,0 +1,14 @@
+double balance = 5000.56;
+            
+            while (balance > 0)
+            {
+                Console.WriteLine("how much do you want?");
+               int want = int.Parse(Console.ReadLine());
+                if (want <= balance)
+                {
+                    Console.WriteLine("chiching");
+                    balance =(balance - want);
+                    Console.WriteLine("your remaining balance " + balance);
+                }
+                else Console.WriteLine("your  poor");
+            }
