@@ -1,0 +1,34 @@
+int num = 58;
+            int count = 0;
+            Console.WriteLine("guess number");
+            int num1 = int.Parse(Console.ReadLine());
+
+            if (num1 > num)
+            {
+                Console.WriteLine("the number you chose is bigger then the number");
+            }
+            if (num1 < num)
+            {
+                Console.WriteLine("the number you chose is smaller then the number");
+            }
+            count++;
+
+            while (num != num1)
+            {
+                Console.WriteLine("try again");
+                num1 = int.Parse(Console.ReadLine());
+
+                if (num1 > num)
+                {
+                    Console.WriteLine("the number you chose is bigger then the number");
+                }
+                if (num1 < num)
+                {
+                    Console.WriteLine("the number you chose is smaller then the number");
+                }
+              count++;
+            }
+
+            {
+                Console.WriteLine("congrets you got the right number: " + num + " after " + count + " tries");
+            }
