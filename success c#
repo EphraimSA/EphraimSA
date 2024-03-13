@@ -1,0 +1,12 @@
+ int sum = 0; int u = 0;
+            Console.WriteLine("enter number");
+            int number = int.Parse(Console.ReadLine());
+
+            while (number > 0)
+            {
+                u = (number % 10);
+                sum = (sum+u);
+                number = number / 10;
+            }
+
+            Console.WriteLine("the sum of the digits is: "+sum);
